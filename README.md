@@ -1,5 +1,12 @@
-# Teste Demarco - Desenvolvedor(a) Full Stack - .NET Framework Sênior | Jackson C. Costa
-## TechsysLog - Controle de Pedidos e Entregas
+# 🤵🏾 Teste Demarco - Desenvolvedor(a) Full Stack - .NET Framework Sênior | Jackson C. Costa
+## :articulated_lorry: TechsysLog - Controle de Pedidos e Entregas
+
+<div style="display: inline_block"><br>
+  <img align="center" alt="C-Sharp" height="50" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg">
+  <img align="center" alt="Dotnet-Core" height="50" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dotnetcore/dotnetcore-original.svg">
+  <img align="center" alt="Angular" height="50" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg">
+</div>
+<br />
 
 Sistena desenvolvido em forma de teste, de uma aplicação para simular o controle de pedidos e entregas. A aplicação está dividida em uma API (Back-End) construída com uma arquitetura que simula um cenário comum, de um sistema escalável e com um código robusto que segue alguns Design Patterns de boas práticas de programação. 
 O Front-End conta com uma aplicação simples desenvolvida em Angular, com dois módulos básicos: Lista de Pedidos e Cadastro de Pedido, estando ela preparada para implementações de novas funcionalidades de forma fácil. Isso porque todo código foi desenvolvido de forma simples para uma fácil compreensão de outros programadores.
@@ -17,7 +24,7 @@ O Front-End conta com uma aplicação simples desenvolvida em Angular, com dois 
 - Aplicado os conceitos de DDD e SOLID.
 - Integração com api da ViaCEP para consulta de logradouros
 
-#BANCO DE DADOS
+## BANCO DE DADOS
 - SQL Server
 
 ## COMO EXECUTAR
