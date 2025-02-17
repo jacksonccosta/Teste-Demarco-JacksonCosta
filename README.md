@@ -1,45 +1,43 @@
-# TechsysLog - Sistema de Gestão de Pedidos e Entregas
+# 🤵🏾 Teste Demarco - Desenvolvedor(a) Full Stack - .NET Framework Sênior | Jackson C. Costa
+## :articulated_lorry: TechsysLog - Controle de Pedidos e Entregas
 
-Este repositório contém o projeto **TechsysLog**, desenvolvido para otimizar a gestão de pedidos e entregas, com uma arquitetura robusta e escalável, tanto no frontend quanto no backend.
+<div style="display: inline_block"><br>
+  <img align="center" alt="C-Sharp" height="50" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg">
+  <img align="center" alt="Dotnet-Core" height="50" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dotnetcore/dotnetcore-original.svg">
+  <img align="center" alt="Angular" height="50" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg">
+</div>
+<br />
 
-## 1 - Tecnologias do Frontend
-- Angular
-- Angular Material
-- SignalR (comunicação em tempo real)
-- Validações nativas
-- Modais para interações
-- Guards para controle de login
-- Gestão de token JWT no LocalStorage (implementação simples e expansível)
-- **Linguagem de Desenvolvimento:** pt-BR
+Sistena desenvolvido em forma de teste, de uma aplicação para simular o controle de pedidos e entregas. A aplicação está dividida em uma API (Back-End) construída com uma arquitetura que simula um cenário comum, de um sistema escalável e com um código robusto que segue alguns Design Patterns de boas práticas de programação. 
+O Front-End conta com uma aplicação simples desenvolvida em Angular, com dois módulos básicos: Lista de Pedidos e Cadastro de Pedido, estando ela preparada para implementações de novas funcionalidades de forma fácil. Isso porque todo código foi desenvolvido de forma simples para uma fácil compreensão de outros programadores.
 
-## 2 - Tecnologias do Backend
+## FRONT-END
+- Angular 14
+- SignalR
+- Gestão de token JWT
+
+## BACK-END
 - .NET 8
-- CQRS
-- MongoDB
-- FluentValidation para validação de comandos
-- RestSharp para chamadas externas (ViaCEP)
-- Polly para resiliência de chamadas
-- SOLID e DDD conforme necessário
-- **Linguagem de Desenvolvimento:** en-US
+- Padrão CQRS
+- FluentValidation
+- RestSharp
+- Aplicado os conceitos de DDD e SOLID.
+- Integração com api da ViaCEP para consulta de logradouros
 
-## 3 - Como Executar?
+## BANCO DE DADOS
+- SQL Server
 
-### 3.1 - Backend
-- Configurar a instância desejada do MongoDB.
-- Executar a aplicação via `dotnet run`.
+## COMO EXECUTAR
 
-### 3.2 - Frontend
-- Navegar até a pasta do frontend.
-- Executar `npm install` para instalar as dependências.
-- Configurar `environment.ts` com as referências ao backend.
-- Executar `ng serve` para iniciar o frontend.
+### BANCO DE DADOS
+- Executar o Script: Carga-Inicial.sql que consta na pasta Script do repositório.
 
-## 4 - Considerações Finais
+### BACK-END
+- Configurar Instância, usuário e senha do SQL na ConnectionString do arquivo appsettings.json.
+- Executar a aplicação no VS.
 
-Este projeto adota uma abordagem prática comum em alguns sistemas legados, onde o frontend foi desenvolvido em **português (pt-BR)** e o backend em **inglês (en-US)**. Essa separação reflete as necessidades de cada camada e facilita a integração com diferentes equipes e ambientes.
-
-O **SignalR** foi implementado para atualizações em tempo real, tanto para novos pedidos quanto para entregas. 
-
-Em relação à autenticação JWT, foi utilizada uma abordagem simples, com um usuário padrão configurado (login: `admin`, senha: `admin`), permitindo expansões futuras. Esse mecanismo pode ser facilmente atualizado para realizar autenticações em um banco de dados ou por meio de um servidor de autenticação, como o Active Directory (AD).
-
-O sistema é flexível, preparado para futuras melhorias, e oferece uma base sólida para ambientes de produção.
+### FRONT-END
+- Navegar até a pasta fron-tend.
+- Executar no terminal o comando `npm install`.
+- Referenciar seu backend no arquivo `environment.ts`.
+- Executar o comando `ng serve` para iniciar a aplicação.
